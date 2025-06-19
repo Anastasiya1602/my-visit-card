@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY VISIT CARD</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="left-column">
+      <picture>
+        <source media="(max-width: 540px)" srcset="img/photo540px.png">
+        <source media="(max-width: 992px)" srcset="img/photo992px.png">
+        <img class="left-column_photo" src="./img/photo.png" alt="photo-developer">
+      </picture>
+      <p class="left-column_profession">РАЗРАБОТЧИК
+      </p>
+    </div>
+
+    <div class="right-column">
+      <h1 class="right-column_name">Иванов Иван Иванович</h1>
+      <h3 class="right-column_city">г. Москва</h3>
+
+      <nav class="navigation">
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/insagram.png" alt="instagram-logo">
+        </a>
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/tel.png" alt="whatsapp-logo">
+        </a>
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/vk.png" alt="vkontakte-logo">
+        </a>
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/telegram.png" alt="telegram-logo">
+        </a>
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/in.png" alt="in-logo">
+        </a>
+        <a class="navigation__link" href="">
+          <img class="navigation__link-logo" src="./logo/git.png" alt="git-logo">
+        </a>
+      </nav>
+
+      <div class="stack">
+        <h2 class="stack-title">
+          Стек технологии:
+        </h2>
+        <ul class="stack__list">
+          <li class="stack__list-item">HTML</li>
+          <li class="stack__list-item">CSS</li>
+          <li class="stack__list-item">Saas</li>
+          <li class="stack__list-item">БЭМ</li>
+          <li class="stack__list-item">Flexbox</li>
+        </ul>
+      </div>
+
+      <div class="about">
+        <h2 class="about-title">О себе: </h2>
+        <p class="about-descrip">
+          Лучший программист всех времен. Взломаю Пентагон, сверстаю сайт, поправлю кнопочку на 1 рх влево. Готов работать 24/7. 
+        </p>
+        <p class="about-descrip">
+          В свободное время учу английский, китайский. Играю в игры. Люблю бутерброды с колбасой и сыром. 
+        </p>
+      </div>
+
+      <form class="form">
+        <input class="form-email" type="email" placeholder="email" required>
+        <input type="text"
+        class="form-message" placeholder="сообщение" required></input>
+        <button class="form-submit" type="submit">Связаться со мной</button>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
