@@ -13,3 +13,7 @@ a {
 a, button, li {
   cursor: pointer;
 }
+
+a:hover, li:hover {
+  transform: scale(1.1);
+}
