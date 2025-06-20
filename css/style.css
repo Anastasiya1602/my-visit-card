@@ -144,17 +144,12 @@ a:hover, li:hover {
 .container .left-column_profession {
   position: absolute;
   bottom: 0;
-  padding: 14px 96px;
+  padding: 14px 65px;
   font-family: "Roboto-Regular", sans-serif;
   font-size: clamp(1.5rem, 0.5217rem + 2.8986vw, 4rem);
   background-color: rgb(18, 18, 18);
   color: rgb(255, 255, 255);
   width: 100%;
-}
-@media screen and (max-width: 1600px) {
-  .container .left-column_profession {
-    padding: 14px 40px;
-  }
 }
 @media screen and (max-width: 992px) {
   .container .left-column_profession {
@@ -176,6 +171,11 @@ a:hover, li:hover {
   background-image: url("../img/background.png");
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 1690px) {
+  .container .right-column {
+    padding: 30px;
+  }
 }
 @media screen and (max-width: 1300px) {
   .container .right-column {
