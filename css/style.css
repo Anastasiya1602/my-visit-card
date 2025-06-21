@@ -128,7 +128,7 @@ a:hover, li:hover {
   height: auto;
   max-width: 100%;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1400px) {
   .container .left-column_photo {
     height: 100%;
     -o-object-fit: cover;
@@ -174,12 +174,12 @@ a:hover, li:hover {
 }
 @media screen and (max-width: 1690px) {
   .container .right-column {
-    padding: 30px;
+    padding: 25px;
   }
 }
 @media screen and (max-width: 1300px) {
   .container .right-column {
-    padding: 25px;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -310,9 +310,9 @@ a:hover, li:hover {
 .container .right-column .about {
   margin-bottom: 66px;
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1690px) {
   .container .right-column .about {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -329,15 +329,21 @@ a:hover, li:hover {
   font-size: clamp(1.25rem, 0.9565rem + 0.8696vw, 2rem);
   margin-bottom: 20px;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1690px) {
   .container .right-column .about-title {
     margin-bottom: 10px;
+    font-size: 20px;
   }
 }
 .container .right-column .about-descrip {
   font-size: clamp(1rem, 0.6087rem + 1.1594vw, 2rem);
   text-indent: 30px;
   line-height: 1.2;
+}
+@media screen and (max-width: 1690px) {
+  .container .right-column .about-descrip {
+    font-size: 20px;
+  }
 }
 .container .right-column .form {
   display: flex;
