@@ -125,15 +125,10 @@ a:hover, li:hover {
   }
 }
 .container .left-column_photo {
-  height: auto;
-  max-width: 100%;
-}
-@media screen and (max-width: 1400px) {
-  .container .left-column_photo {
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (max-width: 540px) {
   .container .left-column_photo {
@@ -171,6 +166,7 @@ a:hover, li:hover {
   background-image: url("../img/background.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 1690px) {
   .container .right-column {
@@ -185,9 +181,6 @@ a:hover, li:hover {
 @media screen and (max-width: 992px) {
   .container .right-column {
     padding: 20px 0 20px 45px;
-    background-image: url("../img/background992.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     max-width: 62%;
   }
 }
@@ -394,7 +387,7 @@ a:hover, li:hover {
 }
 @media screen and (max-width: 1380px) {
   .container .right-column .form-email, .container .right-column .form-message {
-    width: 100%;
+    width: 48%;
     padding: 3px 0 10px 16px;
   }
 }
